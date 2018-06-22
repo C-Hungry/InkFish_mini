@@ -1,18 +1,41 @@
 // pages//index.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    items: []
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
+  getClassifyList: function() {
+    this.setData({
+      items: [
+        {
+          label: "H5",
+          iconPath: "../../images/H5.png",
+          path: ""
+        },
+        {
+          label: "JavaScript",
+          iconPath: "../../images/JavaScript.png",
+          path: ""
+        },
+        {
+          label: "Node.js",
+          iconPath: "../../images/nodejs.png",
+          path: ""
+        },
+        {
+          label: "Java",
+          iconPath: "../../images/Java.png",
+          path: ""
+        },
+        {
+          label: "其他",
+          iconPath: "../../images/others.png",
+          path: ""
+        }
+      ]
+    })
+  },
   onLoad: function (options) {
-
+    this.getClassifyList();
   },
 
   /**
