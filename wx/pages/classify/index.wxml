@@ -1,6 +1,0 @@
-<view>
-  <view wx:for="{{items}}" wx:key='unique'>
-    <image style="width: 68px; height: 68px;" src="{{item.iconPath}}"></image>
-    <view>{{item.label}}</view>
-  </view>
-</view>

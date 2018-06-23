@@ -1,0 +1,15 @@
+<view>
+  <view wx:for="{{list}}" wx:key='unique' class='card-item'>
+    <navigator url="/pages/articles/detail/detail">
+      <view class='card-item-title'>{{item.title}}</view>
+      <view class='card-item-content'>{{item.content}}</view>
+      <view class='card-item-footer'>
+        <view class='card-item-footer-left'>
+          <image style="width: 24rpx; height: 24rpx;" src="../../images/readed_number.png"></image>
+          {{item.readedNum}}
+        </view>
+        <view class='card-item-footer-right'>{{item.createTime}}</view>
+      </view>
+    </navigator>
+  </view>
+</view>

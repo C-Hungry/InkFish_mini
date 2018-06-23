@@ -1,13 +1,17 @@
 {
   "pages": [
-    "pages/classify/index",
-    "pages/homepage/index",
-    "pages/mine/index"
+    "pages/homepage/homepage",
+    "pages/mine/mine",
+    "pages/classify/classify",
+    "pages/articles/create/create",
+    "pages/articles/list/list",
+    "pages/articles/detail/detail"
   ],
   "window": {
+    "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "墨鱼共享",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
@@ -17,19 +21,19 @@
       {
         "iconPath": "images/hot.png",
         "selectedIconPath": "images/hot_selected.png",
-        "pagePath": "pages/homepage/index",
+        "pagePath": "pages/homepage/homepage",
         "text": "最新"
       },
       {
         "iconPath": "images/classify.png",
         "selectedIconPath": "images/classify_selected.png",
-        "pagePath": "pages/classify/index",
+        "pagePath": "pages/classify/classify",
         "text": "分类"
       },
       {
         "iconPath": "images/mine.png",
         "selectedIconPath": "images/mine_selected.png",
-        "pagePath": "pages/mine/index",
+        "pagePath": "pages/mine/mine",
         "text": "我的"
       }
     ]

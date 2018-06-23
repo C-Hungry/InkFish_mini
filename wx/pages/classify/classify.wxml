@@ -1,0 +1,5 @@
+<view class='card'>
+  <view wx:for="{{items}}" wx:key='unique' class='card-item'>
+    <view class='card-item-content' style='background-color: {{item.bgColor}}'>{{item.label}}</view>
+  </view>
+</view>

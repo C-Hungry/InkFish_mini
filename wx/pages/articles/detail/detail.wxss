@@ -1,0 +1,36 @@
+.article {
+  padding: 32rpx;
+  font-size: normal;
+}
+
+.article-title {
+  padding: 24rpx 0;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 2rpx solid #dddee1;
+}
+
+.article-header {
+  display: flex;
+  padding-top: 16rpx;
+}
+
+.article-author {
+
+}
+
+.article-createtime {
+  flex: 1;
+  text-align: right;
+}
+
+.article-content {
+  padding: 32rpx 0;
+  color: #666;
+  text-indent: 64rpx;
+  line-height: 56rpx;
+}
+
+.article-comment {
+
+}

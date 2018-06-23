@@ -1,0 +1,17 @@
+<view class="container">
+  <form bindsubmit="formSubmit" bindreset="formReset">
+  <view style='height: 80rpx;'>
+    <input name="title" class='article-title' style='border-bottom: {{borderStyle}}' placeholder="请输入标题" auto-focus bindfocus="bindInputFocus" bindblur='bindInputBlur'/>
+  </view>
+
+  <view>
+    <textarea name="content" class='article-content' placeholder="请输入内容" bindblur="bindTextAreaBlur" maxlength="1000" auto-height />
+  </view>
+
+   <view style="margin-top: 48rpx;">
+    <button type="primary" formType="submit" >提交</button>
+  </view> 
+</form>
+  
+
+</view>

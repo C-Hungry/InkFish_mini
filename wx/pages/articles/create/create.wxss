@@ -1,0 +1,16 @@
+.article-title {
+  font-size: larger;
+  font-weight: bord;
+  margin: 32rpx 0 32rpx 0;
+  padding: 8rpx 4rpx;
+}
+
+.article-content {
+  margin-top: 8rpx;
+  padding: 8rpx 4rpx;
+  min-height: 280rpx;
+  width: 100%;
+  color: #666;
+  background-color: #EEE;
+  box-sizing: border-box;
+}

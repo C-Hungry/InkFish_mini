@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname" decode>{{userInfo.city}}&nbsp;&nbsp;·&nbsp;&nbsp;{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class='options'>
+  <navigator url="/pages/articles/create/create">
+    <view class='options-item' style='border-top: 2rpx solid #dddee1;'>
+      <image style='width: 28rpx;height:28rpx;margin-right: 8rpx;' class='val-mid' src="../../images/practice.png"></image>
+      <text class='val-mid'>扎马步</text>
+      <image style='width: 32rpx;height:32rpx;float:right;' class='val-mid' src="../../images/jump.png"></image>
+    </view>
+  </navigator>
+    <navigator url="/pages/articles/list/list">
+      <view class='options-item'>
+      <image style='width: 28rpx;height:28rpx;margin-right: 8rpx;' class='val-mid' src="../../images/like.png"></image>
+      <text class='val-mid'>看秘籍</text>
+      <image style='width: 32rpx;height:32rpx;float:right;' class='val-mid' src="../../images/jump.png"></image>
+    </view>
+    </navigator>
+    
+  </view>
+</view>

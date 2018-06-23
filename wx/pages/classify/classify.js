@@ -9,27 +9,32 @@ Page({
         {
           label: "H5",
           iconPath: "../../images/H5.png",
-          path: ""
+          path: "",
+          bgColor: "#ff9900"
         },
         {
           label: "JavaScript",
           iconPath: "../../images/JavaScript.png",
-          path: ""
+          path: "",
+          bgColor: "#ed3f14"
         },
         {
           label: "Node.js",
           iconPath: "../../images/nodejs.png",
-          path: ""
+          path: "",
+          bgColor: "#19be6b"
         },
         {
           label: "Java",
           iconPath: "../../images/Java.png",
-          path: ""
+          path: "",
+          bgColor: "#2d8cf0"
         },
         {
           label: "其他",
           iconPath: "../../images/others.png",
-          path: ""
+          path: "",
+          bgColor: "#80848f"
         }
       ]
     })
